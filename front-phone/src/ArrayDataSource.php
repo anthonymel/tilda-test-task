@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Task3;
+namespace Task3\src;
 
-use App\Task3\Contracts\DataSourceInterface;
+use Task3\src\Contracts\DataSourceInterface;
 
 /**
  * Источник данных на основе массива, вместо него легко может быть 
