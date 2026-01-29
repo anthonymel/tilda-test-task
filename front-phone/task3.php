@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use App\Task3\ArrayDataSource;
-use App\Task3\LocationProvider;
-use App\Task3\Services\ContactResolverService;
+use Task3\src\ArrayDataSource;
+use Task3\src\LocationProvider;
+use Task3\src\Services\ContactResolverService;
 
 /**
  * Task 3: Динамическое определение контактов
